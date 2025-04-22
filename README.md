@@ -21,10 +21,10 @@
 - 👯 I’m looking to collaborate on:
   - AI tools, SaaS platforms, and DevOps automation
   - 
- ### 🌐 Let's Connect!
+  ### 🌐 Let's Connect!
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white&style=flat)](https://www.linkedin.com/in/md-tanwir2)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:tanw9004167@gmail.com)
+   [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white&style=flat)](https://www.linkedin.com/in/md-tanwir2)
+   [![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:tanw9004167@gmail.com)
 
 ---
 
