@@ -21,10 +21,6 @@
 - 👯 I’m looking to collaborate on:
   - AI tools, SaaS platforms, and DevOps automation
 
-- 💬 Ask me about:
-  - Full Stack Development (Node.js, React, PostgreSQL, Firebase , .Net Core )
-  - Microservices | DevOps | Scalable App Architecture
-
 - 📫 How to reach me:
   - [📧 Email](mailto:tanwir@example.com)
   - [💼 LinkedIn](https://linkedin.com/in/yourprofile)
