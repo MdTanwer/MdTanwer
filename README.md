@@ -56,29 +56,6 @@
 ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?logo=github-actions&logoColor=white&style=flat)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?logo=linux&logoColor=black&style=flat)
 
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MdTanwer&show_icons=true&theme=radical" alt="MdTanwer's GitHub stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MdTanwer&theme=radical" alt="GitHub Streak" />
-</p>
-
----
-
-### 📌 Featured Projects
-
-- 🧠 **UniqueIIT Solution LLP** – UniqueIIT Solution LLP 
-  🔗 [View on GitHub](https://github.com/MdTanwer/uniqueiit_solution-LLp)
-
-- 🗣️ **E-Commerce** –  Abo Halal Market Store 
-  🔗 [View on GitHub](https://github.com/MdTanwer/ecommerce)
-
-- 📦 **Stone Cursor ERP** – Stone Cursor ERP  
-  🔗 [View on GitHub](https://github.com/MdTanwer/stone-cursor-erp)
-
----
 
 ### 🌐 Let's Connect!
 
