@@ -9,9 +9,9 @@ Open-source contributor to **[Quarkus](https://github.com/quarkusio/quarkus)** �
 
 - 💼 Full Stack Developer at **TechniQue IT Solutions** (Aug 2023 – Present) — LMS backends: **Payments, Live Classes, Certificates**
 - 🌱 Focused on **Java, Quarkus, Spring Boot**, REST APIs, and cloud-native delivery
-- 🧩 Open-source: **25+ merged PRs** in Quarkus, plus contributions to **Grafana** and **Keycloak**
+- 🧩 Open-source: **40+ merged PRs** in Quarkus, plus contributions to **Grafana** and **Keycloak**
 - ☁️ Comfortable with **Docker, Kubernetes, GitHub Actions, AWS**, PostgreSQL & MongoDB
-- 🔗 [LinkedIn](https://www.linkedin.com/in/md-tanwer/) · [Resume](https://github.com/MdTanwer) · [Email](mailto:tanw9004167@gmail.com)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/md-tanwer/) · [Email](mailto:tanw9004167@gmail.com)
 
 ---
 
@@ -41,21 +41,7 @@ Cloud & Ops   AWS · Docker · Kubernetes · GitHub Actions
 Databases     PostgreSQL · MongoDB
 ```
 
----
 
-### Currently
 
-- Deepening **Quarkus** & cloud-native Java
-- Building reliable **LMS / backend** services at work
-- Looking for **Java Backend Developer** opportunities
-
----
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=MdTanwer&show_icons=true&theme=default&hide_border=true&count_private=true" height="140" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MdTanwer&layout=compact&theme=default&hide_border=true" height="140" alt="Top languages" />
-</p>
-
----
 
 ⭐ If my open-source work helps you, feel free to connect on [LinkedIn](https://www.linkedin.com/in/md-tanwer/).
