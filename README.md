@@ -19,7 +19,7 @@ Open-source contributor to **[Quarkus](https://github.com/quarkusio/quarkus)** Â
 
 | Project | What I contributed | PRs |
 |--------|---------------------|-----|
-| **[Quarkus](https://github.com/quarkusio/quarkus)** | REST, gRPC, Vert.x, AWS Lambda, Kubernetes, Dev Services, CLI/Gradle | [25+ merged](https://github.com/quarkusio/quarkus/pulls?q=is%3Apr+author%3AMdTanwer+is%3Amerged) |
+| **[Quarkus](https://github.com/quarkusio/quarkus)** | REST, gRPC, Vert.x, AWS Lambda, Kubernetes, Dev Services, CLI/Gradle | [40+ merged](https://github.com/quarkusio/quarkus/pulls?q=is%3Apr+author%3AMdTanwer+is%3Amerged) |
 | **[Grafana](https://github.com/grafana/grafana)** | MSSQL connection fix, keyboard accessibility | [Merged PRs](https://github.com/grafana/grafana/pulls?q=is%3Apr+author%3AMdTanwer+is%3Amerged) |
 | **[Keycloak](https://github.com/keycloak/keycloak)** | Client secret entropy, theme path safety, FreeMarker defaults | [Merged PRs](https://github.com/keycloak/keycloak/pulls?q=is%3Apr+author%3AMdTanwer+is%3Amerged) |
 
