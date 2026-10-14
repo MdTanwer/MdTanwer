@@ -53,15 +53,11 @@ Open source identity and access management from Red Hat. It handles login, singl
 
 > `Java · Quarkus · FreeMarker · OAuth · OIDC · Docker`
 
-### [Grafana](https://github.com/grafana/grafana/pulls/MdTanwer)
+### <a href="https://grafana.com">Grafana</a>&nbsp;&nbsp;&nbsp;<a href="contributions/grafana.md"><img src="https://img.shields.io/badge/View_all_PRs-0366d6?style=for-the-badge" alt="View all PRs" align="middle"></a>
 
-**Pull requests:** [grafana/grafana](https://github.com/grafana/grafana/pulls/MdTanwer)
+Open source platform for metrics, logs, and traces. Teams use it to query data sources and to build dashboards and alerts.
 
-MSSQL datasource connections and keyboard accessibility.
-
-**Overall analysis:** 2 merged. Those fix MSSQL connections when a password contains a semicolon, and keyboard access for menus. Four related accessibility and Git sync pull requests were closed without merge.
-
-[![View](https://img.shields.io/badge/View-0366d6?style=for-the-badge)](contributions/grafana.md)
+> `Go · TypeScript · React · SQL`
 
 ---
 
