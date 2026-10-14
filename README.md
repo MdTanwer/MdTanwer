@@ -6,7 +6,7 @@
 
 *I build full-stack software and agentic AI systems — from the product interface through the application layer to the cloud-native infrastructure under them.*
 
-**Core contributor to [OpenHands](https://github.com/OpenHands/software-agent-sdk/pulls/MdTanwer) · [Quarkus (Red Hat)](https://github.com/quarkusio/quarkus/pulls/MdTanwer) · [Keycloak](https://github.com/keycloak/keycloak/pulls/MdTanwer) — 70+ merged PRs across Python agentic AI and cloud-native Java**
+**Core contributor to [OpenHands](https://github.com/OpenHands/software-agent-sdk/pulls/MdTanwer) · [Quarkus (Red Hat)](https://github.com/quarkusio/quarkus/pulls/MdTanwer) · [Keycloak](https://github.com/keycloak/keycloak/pulls/MdTanwer) · [Grafana](https://github.com/grafana/grafana/pulls/MdTanwer) — 70+ merged PRs across Python agentic AI, TypeScript and React, and cloud-native Java**
 
 
 ---
@@ -50,7 +50,7 @@ Architected **PARI**, a terminal-native agentic AI coding assistant built for au
 
 - Fixed a **client-secret entropy flaw** (HS512, ~512 bits), a legacy `KEYCLOAK_SESSION` cookie comparison bug, and hardened the FreeMarker theme layer against path traversal and unsafe engine defaults
 
-### Grafana
+### [Grafana](https://github.com/grafana/grafana/pulls/MdTanwer)
 
 - MSSQL connection fix, keyboard accessibility improvements
 
