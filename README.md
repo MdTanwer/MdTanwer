@@ -8,14 +8,13 @@
 
 **Core contributor to [OpenHands](https://github.com/OpenHands/software-agent-sdk/pulls/MdTanwer) · [Quarkus (Red Hat)](https://github.com/quarkusio/quarkus/pulls/MdTanwer) · [Keycloak](https://github.com/keycloak/keycloak/pulls/MdTanwer) · [Grafana](https://github.com/grafana/grafana/pulls/MdTanwer) — 70+ merged PRs across Python agentic AI, TypeScript and React, and cloud-native Java**
 
+</div>
 
 ---
 
 ## ⭐ Flagship: [PARI](https://pari-cli.in) — Terminal-Native Coding Agent
 
 Architected **PARI**, a terminal-native agentic AI coding assistant built for autonomous, durable code work:
-
-<div align="left">
 
 - 🧠 **Multi-step LLM orchestration** — planner–editor routing, reflection-based self-correction, tool/function calling
 - 🌳 **AST-aware context routing** with multimodal input across **7 model providers**
@@ -25,8 +24,6 @@ Architected **PARI**, a terminal-native agentic AI coding assistant built for au
 > `Python · Linux · Bubblewrap · tree-sitter · Pydantic · FastAPI · httpx`
 
 https://github.com/MdTanwer/pari
-
-</div>
 
 ---
 
