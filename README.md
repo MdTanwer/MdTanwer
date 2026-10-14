@@ -27,17 +27,17 @@ https://github.com/MdTanwer/pari
 
 ---
 
-## 🤖 AI & Agentic Systems — Open Source
+## Open source contributions
 
-### [OpenHands software-agent-sdk](https://github.com/OpenHands/software-agent-sdk/pulls/MdTanwer)
+### AI & Agentic Systems in Python
 
-**Pull requests:** [OpenHands/software-agent-sdk](https://github.com/OpenHands/software-agent-sdk/pulls/MdTanwer)
+#### [OpenHands Software Agent SDK](https://docs.openhands.dev/sdk)
 
-Typed Python contracts for the agent SDK: ACP sessions, settings, tool metadata, and conversation lifecycle.
+Python SDK for building coding agents, and the engine behind the OpenHands CLI and OpenHands Cloud. It defines agents, tools, and conversations, and can run them locally or through a server on Docker and Kubernetes.
 
-**Overall analysis:** 2 merged and 8 open. Merged work replaces runtime attribute probes with typed ACP and settings APIs. Open work covers idle Docker suspension, retry and delegation contracts, and risk labelling for custom system prompts.
+> `Python · TypeScript · FastAPI · Pydantic · LiteLLM · FastMCP · Docker · Kubernetes · SQLAlchemy · WebSockets`
 
-[![View](https://img.shields.io/badge/View-0366d6?style=for-the-badge)](contributions/openhands.md)
+[![View all PRs](https://img.shields.io/badge/View_all_PRs-0366d6?style=for-the-badge)](contributions/openhands.md)
 
 ---
 
