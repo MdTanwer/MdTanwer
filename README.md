@@ -29,33 +29,49 @@ https://github.com/MdTanwer/pari
 
 ## 🤖 AI & Agentic Systems — Open Source
 
-### [OpenHands software-agent-sdk](https://github.com/OpenHands/software-agent-sdk/pulls/MdTanwer) — Core Contributor
+### [OpenHands software-agent-sdk](https://github.com/OpenHands/software-agent-sdk/pulls/MdTanwer)
 
-| Contribution | Impact |
-|---|---|
-| [Typed ACP boundary layer](https://github.com/OpenHands/software-agent-sdk/pull/5293) | Replaced 23 fragile runtime attribute probes with a typed dataclass/Protocol boundary — CI violation baseline **98 → 75**, zero regressions across 578 tests |
-| [Idle-container suspension](https://github.com/OpenHands/software-agent-sdk/pull/5199) | Concurrency-safe Docker runtime suspension with lock-guarded lease checks + full-history resume — fixed host RAM/disk exhaustion |
-| Agent & conversation lifecycle redesign | Typed base-class and Protocol contracts — removed 13 runtime attribute probes across 19 files (local/remote conversations, condensers, events) |
+**Pull requests:** [OpenHands/software-agent-sdk](https://github.com/OpenHands/software-agent-sdk/pulls/MdTanwer)
 
-➡️ **Focus areas:** Agentic AI · LangChain · MCP · ACP · RAG · Vector DBs · LiteLLM · LoRA/QLoRA · INT8/INT4 Quantization
+Typed Python contracts for the agent SDK: ACP sessions, settings, tool metadata, and conversation lifecycle.
+
+**Overall analysis:** 2 merged and 8 open. Merged work replaces runtime attribute probes with typed ACP and settings APIs. Open work covers idle Docker suspension, retry and delegation contracts, and risk labelling for custom system prompts.
+
+[![View](https://img.shields.io/badge/View-0366d6?style=for-the-badge)](contributions/openhands.md)
 
 ---
 
 ## ☕ JVM & Cloud-Native — Open Source
 
-### [Quarkus (Red Hat)](https://github.com/quarkusio/quarkus/pulls/MdTanwer) — 40+ merged PRs
+### [Quarkus (Red Hat)](https://github.com/quarkusio/quarkus/pulls/MdTanwer)
 
-- **[`quarkus-cache-kotlin`](https://github.com/quarkusio/quarkus/pull/55542)** — designed and shipped a conditional extension adding Kotlin coroutines support to `@CacheResult`, resolving a **2-year-old issue** where suspend functions never hit cache and blocked the Vert.x event loop
-- **[gRPC virtual-thread race fix](https://github.com/quarkusio/quarkus/pull/55041)** — diagnosed and fixed unary calls delivering `onHalfClose` before `onMessage` on virtual threads (`INTERNAL: Half-closed without a request` under load) by deferring half-close until the request message arrives
-- More: RESTEasy Reactive `UriInfo` matrix params, `quarkus.http.ssl-host` for independent HTTPS binding, fast-jar packaging for Amazon Lambda JVM containers
+**Pull requests:** [quarkusio/quarkus](https://github.com/quarkusio/quarkus/pulls/MdTanwer)
+
+Cache, gRPC, HTTP, Lambda, Dev Services, and Kubernetes fixes in the Quarkus runtime.
+
+**Overall analysis:** 36 merged and 16 open. Merged work includes Kotlin `@CacheResult` suspend functions, the gRPC virtual-thread half-close race, independent HTTPS binding, RESTEasy matrix parameters, and fast-jar Lambda images.
+
+[![View](https://img.shields.io/badge/View-0366d6?style=for-the-badge)](contributions/quarkus.md)
 
 ### [Keycloak (Red Hat)](https://github.com/keycloak/keycloak/pulls/MdTanwer)
 
-- Fixed a **client-secret entropy flaw** (HS512, ~512 bits), a legacy `KEYCLOAK_SESSION` cookie comparison bug, and hardened the FreeMarker theme layer against path traversal and unsafe engine defaults
+**Pull requests:** [keycloak/keycloak](https://github.com/keycloak/keycloak/pulls/MdTanwer)
+
+Client secrets, session cookies, and FreeMarker theme hardening.
+
+**Overall analysis:** 4 merged and 1 open. Merged work fixes HS512 client-secret entropy, an inverted `KEYCLOAK_SESSION` cookie comparison, theme path traversal, and unsafe FreeMarker defaults.
+
+[![View](https://img.shields.io/badge/View-0366d6?style=for-the-badge)](contributions/keycloak.md)
 
 ### [Grafana](https://github.com/grafana/grafana/pulls/MdTanwer)
 
-- MSSQL connection fix, keyboard accessibility improvements
+**Pull requests:** [grafana/grafana](https://github.com/grafana/grafana/pulls/MdTanwer)
+
+MSSQL datasource connections and keyboard accessibility.
+
+**Overall analysis:** 2 merged. Those fix MSSQL connections when a password contains a semicolon, and keyboard access for menus. Four related accessibility and Git sync pull requests were closed without merge.
+
+[![View](https://img.shields.io/badge/View-0366d6?style=for-the-badge)](contributions/grafana.md)
 
 ---
 
