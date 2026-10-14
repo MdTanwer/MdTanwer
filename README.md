@@ -15,12 +15,18 @@
 
 Architected **PARI**, a terminal-native agentic AI coding assistant built for autonomous, durable code work:
 
+<div align="left">
+
 - 🧠 **Multi-step LLM orchestration** — planner–editor routing, reflection-based self-correction, tool/function calling
 - 🌳 **AST-aware context routing** with multimodal input across **7 model providers**
 - 🛡️ **Fail-closed kernel sandbox** — atomic writes, bounded retries, crash-recoverable state
 - ⚙️ Autonomous code search, editing, shell/test execution, and safe failure recovery
 
-> `TypeScript · Node.js · LLM Orchestration · MCP · Sandboxing`
+> `Python · Linux · Bubblewrap · tree-sitter · Pydantic · FastAPI · httpx`
+
+https://github.com/MdTanwer/pari
+
+</div>
 
 ---
 
