@@ -47,15 +47,11 @@ Kubernetes-native Java framework from Red Hat. Services start quickly, run on th
 
 > `Java · Kotlin · Vert.x · gRPC · Hibernate · RESTEasy · GraalVM · Kubernetes`
 
-### [Keycloak (Red Hat)](https://github.com/keycloak/keycloak/pulls/MdTanwer)
+### <a href="https://www.keycloak.org">Keycloak (Red Hat)</a>&nbsp;&nbsp;&nbsp;<a href="contributions/keycloak.md"><img src="https://img.shields.io/badge/View_all_PRs-0366d6?style=for-the-badge" alt="View all PRs" align="middle"></a>
 
-**Pull requests:** [keycloak/keycloak](https://github.com/keycloak/keycloak/pulls/MdTanwer)
+Open source identity and access management from Red Hat. It handles login, single sign-on, and user federation for applications and services.
 
-Client secrets, session cookies, and FreeMarker theme hardening.
-
-**Overall analysis:** 4 merged and 1 open. Merged work fixes HS512 client-secret entropy, an inverted `KEYCLOAK_SESSION` cookie comparison, theme path traversal, and unsafe FreeMarker defaults.
-
-[![View](https://img.shields.io/badge/View-0366d6?style=for-the-badge)](contributions/keycloak.md)
+> `Java · Quarkus · FreeMarker · OAuth · OIDC · Docker`
 
 ### [Grafana](https://github.com/grafana/grafana/pulls/MdTanwer)
 
