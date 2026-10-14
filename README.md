@@ -31,7 +31,7 @@ https://github.com/MdTanwer/pari
 
 ### AI & Agentic Systems in Python
 
-#### [OpenHands Software Agent SDK](https://docs.openhands.dev/sdk) [![View all PRs](https://img.shields.io/badge/View_all_PRs-0366d6?style=for-the-badge)](contributions/openhands.md)
+#### <a href="https://docs.openhands.dev/sdk">OpenHands Software Agent SDK</a>&nbsp;&nbsp;&nbsp;<a href="contributions/openhands.md"><img src="https://img.shields.io/badge/View_all_PRs-0366d6?style=for-the-badge" alt="View all PRs" align="middle"></a>
 
 Python SDK for building coding agents, and the engine behind the OpenHands CLI and OpenHands Cloud. It defines agents, tools, and conversations, and can run them locally or through a server on Docker and Kubernetes.
 
