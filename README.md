@@ -6,7 +6,7 @@
 
 *I build full-stack software and agentic AI systems — from the product interface through the application layer to the cloud-native infrastructure under them.*
 
-**Core contributor to [OpenHands](https://github.com/OpenHands/software-agent-sdk/pulls/MdTanwer) · [Quarkus (Red Hat)](https://github.com/quarkusio/quarkus/pulls/MdTanwer) · [Keycloak](https://github.com/keycloak/keycloak/pulls/MdTanwer) — 70+ merged PRs across agentic AI and cloud-native Java**
+**Core contributor to [OpenHands](https://github.com/OpenHands/software-agent-sdk/pulls/MdTanwer) · [Quarkus (Red Hat)](https://github.com/quarkusio/quarkus/pulls/MdTanwer) · [Keycloak](https://github.com/keycloak/keycloak/pulls/MdTanwer) — 70+ merged PRs across Python agentic AI and cloud-native Java**
 
 
 ---
