@@ -6,7 +6,7 @@
 
 *I build full-stack software and agentic AI systems — from the product interface through the application layer to the cloud-native infrastructure under them.*
 
-**Core contributor to [OpenHands](https://github.com/OpenHands/software-agent-sdk/pulls/MdTanwer) · [Quarkus (Red Hat)](https://github.com/quarkusio/quarkus/pulls/MdTanwer) · [Keycloak](https://github.com/keycloak/keycloak/pulls/MdTanwer) · [Grafana](https://github.com/grafana/grafana/pulls/MdTanwer) · [Kestra](https://github.com/kestra-io/kestra/pulls/MdTanwer) — 70+ merged PRs across Python agentic AI, TypeScript and React, and cloud-native Java**
+**Core contributor to [OpenHands](https://github.com/OpenHands/software-agent-sdk/pulls/MdTanwer) · [Quarkus (Red Hat)](https://github.com/quarkusio/quarkus/pulls/MdTanwer) · [Keycloak](https://github.com/keycloak/keycloak/pulls/MdTanwer) · [Grafana](https://github.com/grafana/grafana/pulls/MdTanwer) · [Kestra](https://github.com/kestra-io/kestra/pulls/MdTanwer) · [OpenSearch Docs](https://github.com/opensearch-project/documentation-website/pulls/MdTanwer) — 70+ merged PRs across Python agentic AI, TypeScript and React, and cloud-native Java**
 
 </div>
 
@@ -64,6 +64,12 @@ Open source platform for metrics, logs, and traces. Teams use it to query data s
 Open source orchestration platform for scheduled and event-driven workflows. Flows are written in YAML and run tasks across languages and infrastructure.
 
 > `Java · Vue · Micronaut · Pebble · Docker`
+
+### <a href="https://opensearch.org/docs">OpenSearch Docs</a>&nbsp;&nbsp;&nbsp;<a href="contributions/opensearch-docs.md"><img src="https://img.shields.io/badge/View_all_PRs-0366d6?style=for-the-badge" alt="View all PRs" align="middle"></a>
+
+Documentation website for OpenSearch and OpenSearch Dashboards. Markdown pages are rendered with Jekyll and published at opensearch.org/docs.
+
+> `Jekyll · Ruby · Markdown · SCSS · JavaScript`
 
 ---
 
