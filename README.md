@@ -41,15 +41,11 @@ Python SDK for building coding agents, and the engine behind the OpenHands CLI a
 
 ## ☕ JVM & Cloud-Native — Open Source
 
-### [Quarkus (Red Hat)](https://github.com/quarkusio/quarkus/pulls/MdTanwer)
+### <a href="https://quarkus.io">Quarkus (Red Hat)</a>&nbsp;&nbsp;&nbsp;<a href="contributions/quarkus.md"><img src="https://img.shields.io/badge/View_all_PRs-0366d6?style=for-the-badge" alt="View all PRs" align="middle"></a>
 
-**Pull requests:** [quarkusio/quarkus](https://github.com/quarkusio/quarkus/pulls/MdTanwer)
+Kubernetes-native Java framework from Red Hat. Services start quickly, run on the JVM or as GraalVM native images, and include HTTP, gRPC, data, and Kubernetes support.
 
-Cache, gRPC, HTTP, Lambda, Dev Services, and Kubernetes fixes in the Quarkus runtime.
-
-**Overall analysis:** 36 merged and 16 open. Merged work includes Kotlin `@CacheResult` suspend functions, the gRPC virtual-thread half-close race, independent HTTPS binding, RESTEasy matrix parameters, and fast-jar Lambda images.
-
-[![View](https://img.shields.io/badge/View-0366d6?style=for-the-badge)](contributions/quarkus.md)
+> `Java · Kotlin · Vert.x · gRPC · Hibernate · RESTEasy · GraalVM · Kubernetes`
 
 ### [Keycloak (Red Hat)](https://github.com/keycloak/keycloak/pulls/MdTanwer)
 
