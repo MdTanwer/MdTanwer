@@ -4,7 +4,7 @@
 
 ### Full Stack AI Software Engineer · New Delhi, India
 
-*I build full-stack software and agentic AI systems — from the product interface through the application layer to the cloud-native infrastructure under them.*
+*Engineer with 70+ merged PRs in OpenHands, Quarkus, and Keycloak. Built PARI, a terminal-native coding agent with multi-model orchestration, sandboxed execution, and crash recovery. Specializing in LLM serving infrastructure and agent runtimes — from the product interface through the application layer to the cloud-native infrastructure under them.*
 
 **Core contributor to [OpenHands](https://github.com/OpenHands/software-agent-sdk/pulls/MdTanwer) · [Quarkus (Red Hat)](https://github.com/quarkusio/quarkus/pulls/MdTanwer) · [Keycloak](https://github.com/keycloak/keycloak/pulls/MdTanwer) · [Grafana](https://github.com/grafana/grafana/pulls/MdTanwer) · [Kestra](https://github.com/kestra-io/kestra/pulls/MdTanwer) · [OpenSearch Docs](https://github.com/opensearch-project/documentation-website/pulls/MdTanwer) — 70+ merged PRs across Python agentic AI, TypeScript and React, and cloud-native Java**
 
