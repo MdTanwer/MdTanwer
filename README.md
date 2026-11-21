@@ -2,7 +2,7 @@
 
 # Hi, I'm Md Tanwir 👋
 
-### Full Stack AI Software Engineer · New Delhi, India
+### Full Stack AI  Java Software Engineer · New Delhi, India
 
 *Engineer with 70+ merged PRs in OpenHands, Quarkus, and Keycloak. Built PARI, a terminal-native coding agent with multi-model orchestration, sandboxed execution, and crash recovery. Specializing in LLM serving infrastructure and agent runtimes — from the product interface through the application layer to the cloud-native infrastructure under them.*
 
