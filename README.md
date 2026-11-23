@@ -8,7 +8,7 @@ New Delhi, India (Open to Relocation) · [LinkedIn](https://www.linkedin.com/in/
 
 *Java Software Engineer with 3+ years of experience building concurrent, distributed, and cloud-native Java systems — spanning gRPC, Virtual Threads, reactive caching, Kafka & RabbitMQ pipelines, Spring Boot, Quarkus, GraalVM Native Image, and Kubernetes / AWS EKS.*
 
-**Active Open-Source Contributor to [Quarkus (Red Hat)](https://github.com/quarkusio/quarkus/pulls/MdTanwer) · [Keycloak (Red Hat)](https://github.com/keycloak/keycloak/pulls/MdTanwer) · [SmallRye GraphQL](https://github.com/smallrye/smallrye-graphql/pulls/MdTanwer) · [OpenSearch](contributions/opensearch.md) · [Kestra](https://github.com/kestra-io/kestra/pulls/MdTanwer) — 45+ merged Java/JVM PRs (36 merged in Quarkus core)**
+**Active Open-Source Contributor to [Quarkus (Red Hat)](https://github.com/quarkusio/quarkus/pulls/MdTanwer) · [Keycloak (Red Hat)](https://github.com/keycloak/keycloak/pulls/MdTanwer) · [SmallRye GraphQL](https://github.com/smallrye/smallrye-graphql/pulls/MdTanwer) · [OpenSearch](contributions/opensearch.md) · [Kestra](https://github.com/kestra-io/kestra/pulls/MdTanwer) —70+ merged Java/JVM PRs (36 merged in Quarkus core)**
 
 </div>
 
