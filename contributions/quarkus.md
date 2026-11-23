@@ -4,6 +4,8 @@
 
 Cloud-native Java fixes and extensions across cache, gRPC, HTTP, Lambda, Dev Services, Kubernetes, and Hibernate.
 
+## Merged Pull Requests (36)
+
 | Pull request | Detail |
 |---|---|
 | [#55542](https://github.com/quarkusio/quarkus/pull/55542) | `quarkus-cache-kotlin`: Kotlin coroutines support for `@CacheResult`. Suspend functions never hit the cache and blocked the Vert.x event loop. |
@@ -15,7 +17,7 @@ Cloud-native Java fixes and extensions across cache, gRPC, HTTP, Lambda, Dev Ser
 | [#55291](https://github.com/quarkusio/quarkus/pull/55291) | Add `quarkus.http.ssl-host` so HTTPS can bind independently from HTTP. |
 | [#55499](https://github.com/quarkusio/quarkus/pull/55499) | Allow fast-jar packaging for Amazon Lambda JVM container builds. |
 | [#54864](https://github.com/quarkusio/quarkus/pull/54864) | Fix cross-application Dev Services discovery in `ContainerLocator`. |
-| [#54718](https://github.com/quarkusio/quarkus/pull/54718) | Fix Dev Services connection URLs when the dev container reports an IPv6 host. |
+| [#54718](https://github.com/quarkusio/quarkus/pull/54718) | Centralized IPv6 container-host handling across Dev Services (JDBC, MongoDB, Kafka, Redis, Elasticsearch, Keycloak) via shared `DevServicesHostUtil`, resolving unreachable IPv6 gateways to IPv4/localhost fallbacks across Docker and Podman. |
 | [#54419](https://github.com/quarkusio/quarkus/pull/54419) | Fix the build failure for Spring Data JPA dynamic projection derived methods. |
 | [#54694](https://github.com/quarkusio/quarkus/pull/54694) | Move Order/Sort to `PanacheQuery.sort()` in quarkus-data-hibernate. |
 | [#55396](https://github.com/quarkusio/quarkus/pull/55396) | Fix an NPE in modularity when processing removed resources. |
@@ -42,12 +44,16 @@ Cloud-native Java fixes and extensions across cache, gRPC, HTTP, Lambda, Dev Ser
 | [#55472](https://github.com/quarkusio/quarkus/pull/55472) | Complete the `quarkus-extension.yaml` JSON schema and generate docs from it. |
 | [#55698](https://github.com/quarkusio/quarkus/pull/55698) | Align Hibernate Reactive guide examples with session injection. |
 | [#55699](https://github.com/quarkusio/quarkus/pull/55699) | Add StatelessSession sections to the Hibernate guides. |
+
+## Open / Under Review (15)
+
+| Pull request | Detail |
+|---|---|
 | [#55277](https://github.com/quarkusio/quarkus/pull/55277) | Propagate gRPC exception cause chains via response trailers. |
 | [#55310](https://github.com/quarkusio/quarkus/pull/55310) | Dedicated handler for classpath static resources in vertx-http. |
 | [#55467](https://github.com/quarkusio/quarkus/pull/55467) | Generate Kubernetes Gateway API HTTPRoute resources. |
 | [#54648](https://github.com/quarkusio/quarkus/pull/54648) | Fix `ClassNotFoundException` when an external library uses `Class.forName` in `@QuarkusTest`. |
 | [#55827](https://github.com/quarkusio/quarkus/pull/55827) | Improve Hibernate ORM weight-based cache weigher integration. |
-| [#55005](https://github.com/quarkusio/quarkus/pull/55005) | Fix Stork metrics unavailable with gRPC clients. |
 | [#54969](https://github.com/quarkusio/quarkus/pull/54969) | Fix gRPC server startup when using a custom proto directory. |
 | [#55393](https://github.com/quarkusio/quarkus/pull/55393) | Add gRPC server max-connection-age configuration. |
 | [#55381](https://github.com/quarkusio/quarkus/pull/55381) | Allow disabling the gRPC server for client-only applications. |

@@ -2,97 +2,81 @@
 
 # Hi, I'm Md Tanwir 👋
 
-### Full Stack AI  Java Software Engineer · New Delhi, India
+### Java Software Engineer · Distributed Systems & Cloud-Native JVM
 
-*Engineer with 70+ merged PRs in OpenHands, Quarkus, and Keycloak. Built PARI, a terminal-native coding agent with multi-model orchestration, sandboxed execution, and crash recovery. Specializing in LLM serving infrastructure and agent runtimes — from the product interface through the application layer to the cloud-native infrastructure under them.*
+New Delhi, India (Open to Relocation) · [LinkedIn](https://www.linkedin.com/in/md-tanwer/) · [Email](mailto:tanw9004167@gmail.com)
 
-**Core contributor to [OpenHands](https://github.com/OpenHands/software-agent-sdk/pulls/MdTanwer) · [Quarkus (Red Hat)](https://github.com/quarkusio/quarkus/pulls/MdTanwer) · [Keycloak](https://github.com/keycloak/keycloak/pulls/MdTanwer) · [Grafana](https://github.com/grafana/grafana/pulls/MdTanwer) · [Kestra](https://github.com/kestra-io/kestra/pulls/MdTanwer) · [OpenSearch Docs](https://github.com/opensearch-project/documentation-website/pulls/MdTanwer) — 70+ merged PRs across Python agentic AI, TypeScript and React, and cloud-native Java**
+*Java Software Engineer with 3+ years of experience building concurrent, distributed, and cloud-native Java systems — spanning gRPC, Virtual Threads, reactive caching, Kafka & RabbitMQ pipelines, Spring Boot, Quarkus, GraalVM Native Image, and Kubernetes / AWS EKS.*
+
+**Active Open-Source Contributor to [Quarkus (Red Hat)](https://github.com/quarkusio/quarkus/pulls/MdTanwer) · [Keycloak (Red Hat)](https://github.com/keycloak/keycloak/pulls/MdTanwer) · [SmallRye GraphQL](https://github.com/smallrye/smallrye-graphql/pulls/MdTanwer) · [OpenSearch](contributions/opensearch.md) · [Kestra](https://github.com/kestra-io/kestra/pulls/MdTanwer) — 45+ merged Java/JVM PRs (36 merged in Quarkus core)**
 
 </div>
 
 ---
 
-## ⭐ Flagship: [PARI](https://pari-cli.in) — Terminal-Native Coding Agent
+## ⭐ Selected JVM & Cloud-Native Highlights
 
-Architected **PARI**, a terminal-native agentic AI coding assistant built for autonomous, durable code work:
-
-- 🧠 **Multi-step LLM orchestration** — planner–editor routing, reflection-based self-correction, tool/function calling
-- 🌳 **AST-aware context routing** with multimodal input across **7 model providers**
-- 🛡️ **Fail-closed kernel sandbox** — atomic writes, bounded retries, crash-recoverable state
-- ⚙️ Autonomous code search, editing, shell/test execution, and safe failure recovery
-
-> `Python · Linux · Bubblewrap · tree-sitter · Pydantic · FastAPI · httpx`
-
-https://github.com/MdTanwer/pari
+- **Quarkus Kotlin Coroutines Cache (`quarkus-cache-kotlin`)** — Designed and shipped a conditional extension adding Kotlin `suspend` support to `@CacheResult`, resolving a 2-year-old bug where suspend functions never hit cache and blocked the Vert.x event loop ([#55542](https://github.com/quarkusio/quarkus/pull/55542)).
+- **gRPC & Virtual Threads Concurrency Fix** — Diagnosed and fixed a high-load race where unary gRPC calls on `@RunOnVirtualThread` delivered `onHalfClose` before `onMessage` (`INTERNAL: Half-closed without a request`) by deferring half-close until the request arrives ([#55041](https://github.com/quarkusio/quarkus/pull/55041)).
+- **Unified IPv6 Dev Services Networking** — Introduced a shared `DevServicesHostUtil` across Quarkus Dev Services (JDBC, MongoDB, Kafka, Redis, Elasticsearch, Keycloak), fixing broken connection URLs and falling back from unreachable IPv6 gateways to IPv4/localhost on Docker and Podman ([#54718](https://github.com/quarkusio/quarkus/pull/54718)).
+- **Keycloak Security Hardening** — Fixed an HS512 client-secret entropy flaw (~512 bits) ([#50083](https://github.com/keycloak/keycloak/pull/50083)), an inverted legacy `KEYCLOAK_SESSION` cookie check ([#50147](https://github.com/keycloak/keycloak/pull/50147)), path-traversal containment in `FolderTheme.getTemplate()` ([#50098](https://github.com/keycloak/keycloak/pull/50098)), and unsafe FreeMarker defaults ([#50099](https://github.com/keycloak/keycloak/pull/50099)).
+- **SmallRye GraphQL Schema Nullability** — Fixed Kotlin nullability loss for Mutiny-wrapped generic lists (`Uni<List<String>>` → `[String!]!` instead of `[String]!`) by recursively applying Kotlin metadata across the wrapper chain ([#2563](https://github.com/smallrye/smallrye-graphql/pull/2563)).
 
 ---
 
-## Open source contributions
-
-### AI & Agentic Systems in Python
-
-#### <a href="https://docs.openhands.dev/sdk">OpenHands Software Agent SDK</a>&nbsp;&nbsp;&nbsp;<a href="contributions/openhands.md"><img src="https://img.shields.io/badge/View_all_PRs-0366d6?style=for-the-badge" alt="View all PRs" align="middle"></a>
-
-Python SDK for building coding agents, and the engine behind the OpenHands CLI and OpenHands Cloud. It defines agents, tools, and conversations, and can run them locally or through a server on Docker and Kubernetes.
-
-> `Python · TypeScript · FastAPI · Pydantic · LiteLLM · FastMCP · Docker · Kubernetes · SQLAlchemy · WebSockets`
-
----
-
-## ☕ JVM & Cloud-Native — Open Source
+## ☕ Open Source Contributions
 
 ### <a href="https://quarkus.io">Quarkus (Red Hat)</a>&nbsp;&nbsp;&nbsp;<a href="contributions/quarkus.md"><img src="https://img.shields.io/badge/View_all_PRs-0366d6?style=for-the-badge" alt="View all PRs" align="middle"></a>
 
-Kubernetes-native Java framework from Red Hat. Services start quickly, run on the JVM or as GraalVM native images, and include HTTP, gRPC, data, and Kubernetes support.
+36 merged PRs (+ 15 under review) in Red Hat's Kubernetes-native Java framework across caching, gRPC, Virtual Threads, Vert.x HTTP, RESTEasy Reactive, Hibernate/Panache, GraalVM Native Image, AWS Lambda, Kubernetes/OpenShift, and Dev Services.
 
-> `Java · Kotlin · Vert.x · gRPC · Hibernate · RESTEasy · GraalVM · Kubernetes`
+> `Java · Kotlin · Vert.x · gRPC · Mutiny · Hibernate/Panache · RESTEasy Reactive · GraalVM · Kubernetes`
 
 ### <a href="https://www.keycloak.org">Keycloak (Red Hat)</a>&nbsp;&nbsp;&nbsp;<a href="contributions/keycloak.md"><img src="https://img.shields.io/badge/View_all_PRs-0366d6?style=for-the-badge" alt="View all PRs" align="middle"></a>
 
-Open source identity and access management from Red Hat. It handles login, single sign-on, and user federation for applications and services.
+4 merged security PRs in Red Hat's identity and access management server covering client-secret entropy, session cookie comparison, and FreeMarker theme hardening.
 
-> `Java · Quarkus · FreeMarker · OAuth · OIDC · Docker`
+> `Java · Quarkus · OAuth 2.0 / OIDC · FreeMarker · Security`
 
-### <a href="https://grafana.com">Grafana</a>&nbsp;&nbsp;&nbsp;<a href="contributions/grafana.md"><img src="https://img.shields.io/badge/View_all_PRs-0366d6?style=for-the-badge" alt="View all PRs" align="middle"></a>
+### <a href="https://smallrye.io/smallrye-graphql">SmallRye GraphQL</a>&nbsp;&nbsp;&nbsp;<a href="contributions/smallrye-graphql.md"><img src="https://img.shields.io/badge/View_all_PRs-0366d6?style=for-the-badge" alt="View all PRs" align="middle"></a>
 
-Open source platform for metrics, logs, and traces. Teams use it to query data sources and to build dashboards and alerts.
+MicroProfile GraphQL implementation powering Quarkus GraphQL; fixed recursive Kotlin nullability preservation in schema generation for Mutiny reactive types.
 
-> `Go · TypeScript · React · SQL`
+> `Java · Kotlin · MicroProfile GraphQL · Mutiny · Schema Generation`
+
+### <a href="https://opensearch.org">OpenSearch (Security & Neural Search)</a>&nbsp;&nbsp;&nbsp;<a href="contributions/opensearch.md"><img src="https://img.shields.io/badge/View_all_PRs-0366d6?style=for-the-badge" alt="View all PRs" align="middle"></a>
+
+3 merged Java PRs across `opensearch-project/security` (RBAC role permissions and startup compliance logging) and `opensearch-project/neural-search` (configurable rerank score fields).
+
+> `Java · OpenSearch · RBAC Security · Distributed Search · Gradle`
 
 ### <a href="https://kestra.io">Kestra</a>&nbsp;&nbsp;&nbsp;<a href="contributions/kestra.md"><img src="https://img.shields.io/badge/View_all_PRs-0366d6?style=for-the-badge" alt="View all PRs" align="middle"></a>
 
-Open source orchestration platform for scheduled and event-driven workflows. Flows are written in YAML and run tasks across languages and infrastructure.
+Java/Micronaut event-driven workflow orchestration platform; fixed core runtime `fileURI` namespace file version resolution consistency.
 
-> `Java · Vue · Micronaut · Pebble · Docker`
-
-### <a href="https://opensearch.org/docs">OpenSearch Docs</a>&nbsp;&nbsp;&nbsp;<a href="contributions/opensearch-docs.md"><img src="https://img.shields.io/badge/View_all_PRs-0366d6?style=for-the-badge" alt="View all PRs" align="middle"></a>
-
-Documentation website for OpenSearch and OpenSearch Dashboards. Markdown pages are rendered with Jekyll and published at opensearch.org/docs.
-
-> `Jekyll · Ruby · Markdown · SCSS · JavaScript`
+> `Java · Micronaut · Pebble · Distributed Workflows · Docker`
 
 ---
 
-## 💼 Work
+## 💼 Professional Experience
 
-**Software Developer @ TechniQue IT Solutions** · New Delhi *(Aug 2023 – Present)*
+**Software Developer @ TechUniqueIIT Solutions** · New Delhi, India *(Jun 2023 – Sep 2026)*
 
-- 🏗️ **Platform engineering** — RBAC vendor access, compliance-auditing middleware, RabbitMQ async notifications for multi-vendor logistics platforms; partner onboarding < 100ms, endpoints 40% faster
-- ☁️ **Backend & microservices** — migrated a legacy billing monolith to 9 Spring Boot microservices on AWS EKS + 8 Quarkus/GraalVM native services; **per-pod memory cut 87%**, releases went from bi-weekly to daily
-- 🖥️ **Frontend & API integration** — React dashboards unifying 15+ backend services into one interface for 1,000+ users
+- **High-Performance Reactive Microservices** — Built **8 Quarkus 3 + GraalVM Native Image** microservices running at **45MB RSS per pod** (vs. 350MB JVM), achieving an **87% memory reduction**.
+- **Monolith → Microservices Migration** — Architected legacy billing monolith decomposition into **9 Spring Boot microservices** on **AWS EKS**, improving release cadence from **bi-weekly to multiple daily releases**.
+- **Enterprise Access & Security Platform** — Built multi-vendor RBAC Vendor Access Management with automated permission cleanup across logistics platforms, securing partner onboarding at **<100ms latency**.
+- **Event-Driven & Async Messaging** — Shipped high-throughput **Kafka** pipelines and **RabbitMQ**-based async email/SMS notification queues, unblocking request threads for **40% faster endpoint response times**.
+- **Global Data Auditing Middleware** — Standardized enterprise entity auditing via a reusable pre-save hook with dynamic user-context extraction (`created_by` / `last_modified_by` compliance metadata).
 
 ---
 
 ## 🛠 Tech Stack
 
-| Area | Tools |
+| Area | Technologies |
 |---|---|
-| **AI / LLM** | LangChain · MCP · ACP · RAG · LiteLLM · Vector DBs · LoRA/QLoRA · Quantization (INT8/INT4) |
-| **Languages** | Python · Java · TypeScript · JavaScript · SQL |
-| **Backend** | FastAPI · Quarkus · Spring Boot · Node.js · Kafka · RabbitMQ |
-| **Frontend** | React · TypeScript |
-| **Cloud & Infra** | AWS (EKS, Lambda, S3) · Docker · Kubernetes · GraalVM · GitHub Actions · CI/CD |
-| **Data & Observability** | PostgreSQL · DynamoDB · MongoDB · Redis · OpenTelemetry · Prometheus |
-
----
-
+| **Languages** | Java (Virtual Threads, Concurrency) · Kotlin (Coroutines) · SQL |
+| **Frameworks & APIs** | Quarkus · Spring Boot · Spring Data JPA · Vert.x · Mutiny (Reactive) · Hibernate / Panache · gRPC · GraphQL · RESTEasy Reactive · Micronaut |
+| **Messaging & Streaming** | Apache Kafka · RabbitMQ |
+| **Cloud & Infrastructure** | AWS (EKS, Lambda, S3, Redshift) · Google Cloud · Kubernetes · OpenShift · Docker · Podman · GraalVM Native Image · GitHub Actions |
+| **Data & Storage** | PostgreSQL · DynamoDB · Redis · MongoDB · MySQL · Amazon Redshift · Amazon S3 |
+| **Observability & Build** | Micrometer · OpenTelemetry · Prometheus · Maven · Gradle · Testcontainers |
